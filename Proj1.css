@@ -1,8 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .n1{
     display: flex;
     justify-content: space-between;
@@ -18,6 +18,10 @@
 }
 .n1 a{
     text-decoration: none;
+    
+}
+.n1 h1{
+    font-size: 45px;
 }
 .n2{
     font-family: "Fira Sans", sans-serif;
@@ -88,7 +92,10 @@ body{
 .e2d img:hover{
     scale: 1.1;
     border-radius: 30px;
-    transition: all .2s;
+    transition: all .9s;
+    padding: 30px;
+    
+  
 
 }
 
@@ -99,6 +106,7 @@ body{
     color: aliceblue;
 
 }
+
 .e2dp:hover{
     scale: 1.2;
     border: 0px solid black;
@@ -119,10 +127,8 @@ body{
     color: rgb(42, 41, 34);
 }
 .img1m{
-    background-image: url(https://img.freepik.com/free-vector/line-luxury-gradient-color-minimalist-style-wave_483537-3948.jpg?t=st=1733641512~exp=1733645112~hmac=56a780bf21ec81f6e1899f6db2ec85ebe5795b500632ab3f50fd65ce1313ecbc&w=1380);
-    background-image: url(Images/mjy15.jpg);
-    background-repeat: no-repeat;
-    background-position: ;
+    
+    border: 0px solid black;
     background-size: cover;
     color: azure;
     
@@ -211,7 +217,8 @@ body{
     grid-template-rows: repeat(2,auto);
 }
 .e2d img{
-    padding: 20px;
+    padding: 10px;
+    padding-top: 20px;
     
 }
 .e2d h1{
@@ -264,6 +271,10 @@ body{
     padding-left: 70px; 
 
 }
+.e2d a{
+    text-decoration: none;
+    color: black;
+}
 .e2d button{
     background-color: rgb(28, 167, 222);
     border: 1px ;
@@ -308,8 +319,7 @@ body{
 .u1 p{
     font-size: 20px;
     padding-bottom: 5px;
-    padding-left: 5px;
-    text-decoration: underline;
+    
 }
 .u1 h2{
     padding-top: 5px;
@@ -352,25 +362,44 @@ body{
     word-spacing: 10px;
 }
 .h4e{
-    background-color: whitesmoke;
+    
     display: flex;
     justify-content: space-between;
     margin: 40px;
-    gap: 100px;
+    gap: 10px;
     border: 0px solid;
-    
+    padding-top: 35px;
+    padding-bottom: 40px;
+
     
 }
 .h4d1{
     display: flex;
     justify-content: space-around;
     margin: 10px;
+    
     padding: 40px;
+    background-color: rgb(44, 95, 95);
 }
-
+.h4dd1{
+    background-color: rgb(44, 95, 95);
+    padding: 25px;
+    text-align: center;
+}
+.h4dd1 h1{
+    padding-bottom: 30px;
+}
+.h4dd1 p{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
 .h4e h1{
     font-size: 48px;
-    
+    color: antiquewhite;
+
+}
+.h4e h2{
+    color: #faebd6;
 }
 .h4e p{
     padding-top: 0px;
@@ -396,16 +425,19 @@ body{
     line-height: 10px;
     
 }
-.h4d3 button{
-    background-color: black;
+.h4d3 input{
+    background-color: rgb(0, 0, 0);
     color: whitesmoke;
     padding: 15px;
-    border: 1px solid black;
+    border: 0px solid ;
     border-radius: 10px;
+    
 }
 .h4b1,.h4b2{
-    padding: 10px;
+    padding-top: 30px;
+    
 }
+
 .h5e1{
    
     display: flex;
@@ -416,7 +448,7 @@ body{
     text-align: center;
 }
 .h5e{
-    background-color: whitesmoke;
+    background-color: aliceblue;
 }
 .h6e{
     background-color: aliceblue;
@@ -452,6 +484,52 @@ body{
     padding: 10px;
     font-size: 20px;
 }
+.h5d1,.h5d2{
+    text-align: center;
+}
+.h5d1{
+
+}
+.h5d2{
+    padding-bottom: 50px;
+}
+.h5d1 input{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(187, 239, 255);
+    border: 0px solid;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 1px 1px 200px 10px #faebd6;
+}
+.h5d2 input{
+    padding-left:50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(187, 239, 255);
+    border: 0px solid;
+    border-radius: 10px;
+    font-size: 16px;
+    box-shadow: 1px 1px 200px 10px #faebd6;
+    
+}
+.h5d1 input:hover{
+    scale: 1.1;
+    transition:all 2s ;
+    box-shadow: 1px 1px 100px 5px rgb(228, 223, 223);
+    border: 0px solid;
+}
+.h5d2 input:hover{
+    
+        scale: 1.25;
+        transition:all 3s ;
+        box-shadow: 1px 1px 100px 5px rgb(228, 223, 223);
+        border: 0px solid;
+    
+}
 .h6s1{
     background-color: lightblue;
     color: rgb(65, 118, 165);
@@ -459,6 +537,22 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 20px;
+   
+}
+.h5d2 p{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: "Ubuntu", serif;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.h5d1 p{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: "Ubuntu", serif;
+    padding-top: 20px;
+    padding-bottom: 35px;
+
 }
 .h7e{
     background-color: rgb(21, 21, 41);
@@ -510,6 +604,10 @@ body{
     padding-bottom: 30px;
 
 }
+
+.h5edd{
+    padding-top: 60px ;
+}
 .h7d5{
     display: flex;
     justify-content: space-evenly;
@@ -531,6 +629,249 @@ body{
     background-color: rgb(21, 21, 41);
     box-shadow: 0px 0px 40px 10px rgb(21, 21, 41);
 }
+.p3d2 i{
+    padding-right: 7px;
+}
+
+.p4d1u li{
+    font-size: 18px;
+    color: rgb(89, 97, 97);
+}
+.p4d1{
+    padding-left: 10px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    position: sticky;
+    top: 0px;
+    backdrop-filter: blur(150px);
+}
+.p4d2{
+    top: 10px;
+    position: static;
+
+
+}
+.p4d1u a:active{
+
+    padding-top:15px ;
+    padding-bottom:15px ;
+    
+    border-bottom: 3px solid #1D5CC9;
+}
+.p1e1{
+    
+    padding-top: 20px;
+    display: flex;
+
+    gap: 5px;
+    text-decoration: none;
+    
+}
+.p1e1 a{
+    text-decoration: none;
+}
+.p3e{
+    color: rgb(16, 46, 73);
+    
+
+}
+
+.p3e h1{
+    font-size: 40px;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.p3p4{
+    font-size: 15px;
+}
+.p3d2{
+    display: flex;
+    gap: 30px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+.p4d1u{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+
+}
+.p4d3{
+    padding: 15px;
+    
+}
+.p5e{
+    padding: 20px;
+}
+.p6d1 h1{
+    font-size: 24px;
+}
+.p6d1 p{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.p4d3{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    line-height: 35px;
+    
+}
+
+.w1 h1,h2{
+    font-family: "Ubuntu", serif;   
+}
+.w1 p{
+    font-size: 17px;
+    font-family: "Ubuntu", serif;
+}
+.p4d2{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    padding-left: 15px;
+
+    line-height: 35px;
+    padding-bottom: 20px;
+}
+
+.p4d2 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.w1{
+    background-color: azure;
+}
+.p3e{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 50px;
+    
+}
+
+.p6d1 {
+    padding-left: 35px;
+    padding-right: 25px;
+    line-height: 30px;
+    
+}
+
+.p7d1{
+    font-size: 20px;
+    padding: 25px;
+    line-height: 35px;
+}
+.p7d3,.p7d4,.p7d5{
+    font-size: 20px;
+    padding: 25px;
+    line-height: 35px;
+}
+.p7d2{
+    display: flex;
+    gap: 150px;
+}
+.p7d8{
+    display: flex;
+    gap: 30px;
+}
+
+.p7d6{
+    height: 400px;
+    background-image: url(https://5.imimg.com/data5/SELLER/Default/2021/1/LR/ZI/CO/60261566/15-500x500.jpg );
+    background-repeat: no-repeat;
+    
+    background-size: contain;
+    animation-name: happy1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    height: 50vh;
+    width: 60vh;
+}
+@keyframes happy1{
+    0%{
+        background-image: url(https://plus.unsplash.com/premium_photo-1661911021547-b0188f22d548?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        box-shadow: 1px 1px 20px 5px rgb(251, 225, 213);
+    }
+    30%{
+        background-image: url(https://images.unsplash.com/photo-1509390673020-a5b2450e33f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        box-shadow: 1px 1px 200px 5px rgb(144, 154, 187);
+    }
+    100%{
+        background-image: url(https://www.capitalccg.ac.uk/wp-content/smush-webp/2024/01/how-to-become-an-electrician-career-spotlight-1.jpg.webp);
+        box-shadow: 1px 1px 200px 5px gray;
+    }
+}
+.p7d9{
+    height: 400px;
+    background-image: url(https://5.imimg.com/data5/SELLER/Default/2021/1/LR/ZI/CO/60261566/15-500x500.jpg );
+    background-repeat: no-repeat;
+    
+    background-size: contain;
+    animation-name: happy2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    height: 50vh;
+    width: 60vh;
+}
+@keyframes happy2{
+    0%{
+        background-image: url(https://plus.unsplash.com/premium_photo-1661911021547-b0188f22d548?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    }
+    30%{
+        background-image: url(https://images.unsplash.com/photo-1509390673020-a5b2450e33f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        
+    }
+    100%{
+        background-image: url(https://www.capitalccg.ac.uk/wp-content/smush-webp/2024/01/how-to-become-an-electrician-career-spotlight-1.jpg.webp);
+        
+    }
+}
+.p7d7{
+    height: 400px;
+    background-image: url(https://5.imimg.com/data5/SELLER/Default/2021/1/LR/ZI/CO/60261566/15-500x500.jpg );
+    background-repeat: no-repeat;
+    
+    background-size: contain;
+    animation-name: happy3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    height: 50vh;
+    width: 60vh;
+}
+@keyframes happy3{
+    0%{
+        background-image: url(https://www.loomsolar.com/cdn/shop/articles/Electricans_in_Rajgir_d1591b4c-3ce6-42d6-8628-9c84193ddc89_1200x.jpg?v=1649052830);
+    }
+    30%{
+        background-image: url(https://constructionaccidents.ginarte.com/wp-content/uploads/2013/04/Electrical-Injuries-on-Construction-Sites.jpg);
+        
+    }
+    100%{
+        background-image: url(https://www.schaferelectric.com/wp-content/uploads/2024/04/electrician-checking-wires-in-a-house.jpg);
+        
+    }
+}
+.p4d2 a.active{
+    font-weight: 600;
+    border-bottom: 3px solid #1D5CC9;
+    padding-bottom: 9px;
+}
+.p7d5{
+    padding-top: 5px;
+}
+.p4d1u a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
 .h7d6 button{
     padding: 20px;
 
@@ -539,12 +880,89 @@ body{
     border-radius: 10px;
     border: 0px solid rgb(21, 21, 41);
     background-color: rgb(81, 180, 255);
-    color: rgb(40, 9, 70;
-    font-size: 35px;
-    
+    color: rgb(40, 9, 70);
+     
 }
-.h7d6 button:hover{
-    scale: 1.1;
+.h8e{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(248, 248, 248);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.h8e h1,h3{
+    padding-bottom: 5px;
+}
+.h8e p{
+    padding-top: 5px;
+}
+.h8e a{
+    text-decoration: none;
+    color: black;
+}
+.h8d1d1{
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.h8d21{
+    word-spacing: 100px;
+}
+
+.wh1 p{
+    font-family: "Ubuntu", serif;
+}
+.wh1 h1,h3{
+    font-family: "Roboto", serif;
+}
+.wh2 p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.wh2 h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.h6s1{
+    background: #A7CFDF;
+    background-image: url(https://images.unsplash.com/photo-1730780890754-c0cfa5166e8a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    color: transparent;
+    -webkit-background-clip: text;
+    
+    animation: animate  10s;
+    animation-iteration-count: infinite;
+    
+}@keyframes animate{
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 100%;
+    }
+}
+.img1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.p2e p{
+    padding-left: 10px;
+}
+.h8d1d21{
+    display: flex;
+    gap: 5px;
+}
+.h8d1d2{
+    display: flex;
+    gap: 60px;
+    padding-top: 70px;
+    font-size: 12px;
+}
+.h8d1 h1{
+    padding-left: 0px;
+}
+.h6d1{
+    padding-bottom: 90px;
+}
+.h6h1{
+    padding-top: 55px;
 }
 @media screen and (max-width :1061px) {
     .n1 label{
@@ -556,9 +974,79 @@ body{
         position: absolute;
         top: 87px;
         width: 100%;
-        background-color: aliceblue;
+        background-color: rgb(16, 29, 40);
+        
     }
     .n1 ul li{
         padding: 12px;
     }
+    .s1e ul{
+        flex-wrap: wrap;
+    }
+    .h3e,.h4e{
+        
+        display: block;
+        gap: 100px;
+    }
+    .h5e1{
+        display: block;
+        gap: 10px;
+    }
+    .h6d1{
+        display: block;
+
+    }
+    .h6d1 img{
+        margin: 0px;
+        padding-top: 0;
+    }
+    .h4d1{
+        display: block;
+        text-align: center;
+        line-height: 45px;
+
+    }
+    .h6d1 img{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .h7d1{
+        display: block;
+    }
+    .h2e{
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        padding: 0;
+        padding-top: 50px;
+        padding-bottom: 90px;
+    }
+    .dm1 p{
+        font-size:20px;
+    }
+    .sg1{
+        display: block;
+    }
+    .p3e{
+        display: block;
+    }
+    .h8e{
+        margin: 20px;
+        border-radius: 10px;
+    }
+    .h8d1{
+        padding: 10px;
+    }
 }
+@media screen and (max-width:600px) {
+    .e2e{
+        display: inline-grid;
+    }
+    .h4d1{
+        display: block;
+    }
+}
+
+
