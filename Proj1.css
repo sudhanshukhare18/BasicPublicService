@@ -1059,6 +1059,10 @@ body{
     }
     .h3e{
         margin: 0px;
+        
+    }
+    .h3e img{
+        width: 100%;
     }
     .p6d1 img{
         width: 100%;
