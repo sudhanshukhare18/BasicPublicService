@@ -11,25 +11,25 @@ body{
     
     
 }
-.h1e{
+.r1e{
     border: 0px solid;
     margin-left: 350px;
     margin-right: 350px;
     box-shadow: 1px 1px 10px 10px rgb(57, 57, 117);
 }
-.h2e{
+.r2e{
     text-align: center;
     margin-top: px;
     padding: 50px;
     
 }
-.h3e{
+.r3e{
     display: flex;
     justify-content: space-evenly;
     
     gap: 40px;
 }
-.h4e input {
+.r4e input {
     border: 1px solid rgb(20, 5, 32);
     border-radius: 5px;
     padding: 10px;
@@ -39,7 +39,7 @@ body{
     
 
 }
-#log1{
+#rlog1{
     background-color: rgb(108, 55, 155);
     color: whitesmoke;
     margin-top: 30px;
@@ -47,7 +47,7 @@ body{
     height: 50px;
     padding-right: 90px;
 }
-.h7e{
+.r7e{
     margin-top: 0px;
     font-size: 50px;
     border: 0px solid ;
@@ -55,7 +55,7 @@ body{
     text-align: center;
 
 }
-.h7e button{
+.r7e button{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
