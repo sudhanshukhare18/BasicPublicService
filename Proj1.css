@@ -1142,6 +1142,7 @@ body{
 }
 .l3e h1{
     font-size: 35px;
+    color: antiquewhite;
 }
 .l3e h2{
     text-align: left;
@@ -1193,12 +1194,36 @@ body{
         border-radius: 0px;
         margin: 0px;
         width: 100%;
+        border: 0px solid;
+        border-radius: 0px;
+    }
+    .h3e h1{
+        font-size: 25px;
+    }
+    .h3e p{
+        font-size: 10px;
+        word-spacing: 1px;
+    }
+    .h4e h1{
+        font-size: 30px;
+        text-align: left;
+        padding: 0;
     }
     .h4e{
         width: 100%;
         padding: 0;
         margin: 0;
+        
+        background-color: rgb(44, 95, 95);
+        border-bottom: 0px solid black;
     }
+    .h4d3{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: -55px;
+        gap: 20px;
+    }
+    
     .h6e h1{
         font-size: 50px;
         padding: 0;
@@ -1317,5 +1342,109 @@ body{
     .p1e1 p{
         font-size: 10px;
     }
+    .e1e{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .e1d{
 
+        display: grid;
+        grid-template-columns: repeat(3,auto);
+        width: 100%;
+    }
+    .u1{
+        padding: 0;
+        padding-left: 10px;
+    }
+    .h25{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .e2d{
+        width: 100%;
+        border: 0px solid rgb(246, 246, 255);
+        padding-left: 0px;
+        margin: 0;
+       
+        
+    }
+    .e2d:hover{
+        scale: 0.9;
+        transition: all 2s;
+        padding: 0px
+    }
+    .e2d img:hover{
+        padding: 0;
+        border-radius: 0px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .e1e{
+        background-color:;
+        color: rgb(195, 243, 255);
+        gap: 10px;
+    }
+    .sg1{
+        background-color: rgb(194, 235, 250);
+    }
+    .h8e{
+        border: 0px solid;
+        border-radius: 0%;
+    }
+    .l3e{
+        margin: 0px;
+        margin-top:50px ;
+        margin-left:10px ;
+        margin-right: 10px;
+    }
+    .l3e h1{
+        text-align: center;
+        margin: 0;
+        
+    }
+    .l3e h2{
+        margin: 0;
+        padding-left:35px ;
+
+    }
+    .l1e input{
+        width: 290px;
+        margin: 0;
+        padding-left: 15px;
+    }
+    .l2e{
+
+        text-align: left;
+        
+    }
+    .loi{
+       padding-left: 30px; 
+    }
+    .l2e a{
+        margin: 0;
+        margin-left: 200px;
+
+    }
+    .clb{
+        display: none;
+    }
+    .h5e h1{
+        font-size: 30px;
+    }
+    .h5e p{
+        font-size: 10px;
+    }
+    .h6e h1{
+        font-size: 30px;
+    }
+    .h6e p{
+        font-size: 15px;
+    }
+    .h7e p{
+        font-size: 15px;
+    }
+    .h7d5 p{
+        font-size: 6px;
+    }
 }
