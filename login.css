@@ -6,7 +6,7 @@ body{
     font-size: 15px;
 }
 
-.h2e{
+.l2e{
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -17,19 +17,19 @@ body{
     
 
 }
-.h4e {
+.l4e {
    
     margin-left: 210px;
     text-align: left;
     padding-top: 30px;
 }
-.h1e input{
+.l1e input{
     border: 1px solid rgb(7, 7, 47);
     border-radius: 5px;
     height: 50px;
     width: 400px;
 }
-.h1e a{
+.l1e a{
     margin-left:290px;
    text-decoration: none;
     
@@ -45,25 +45,25 @@ body{
     color: whitesmoke;
     
 }
-.h3e{
+.l3e{
     box-shadow: 1px 1px 10px 10px rgb(57, 57, 117);
     margin-top: 150px;
     margin-left: 520px;
     margin-right: 520px;
     margin-bottom: 50px;
 }
-.h1e{
+.l1e{
     padding-bottom: 40px;
     padding-top: 0px;
 }
-.h7e {
+.l7e {
     display: flex;
     
     height: 1.2px;
     width: 100%;
     background-color: aliceblue;
 }
-.h5e{
+.l5e{
     display: flex;
     justify-content: space-evenly;
     gap: 30px;
@@ -73,4 +73,7 @@ body{
     box-sizing: 400px;
     
     font-size: 450px;
+}
+.l2e input:focus{
+    box-shadow: 1px 1px 50px 20px rgb(33, 33, 88);
 }
