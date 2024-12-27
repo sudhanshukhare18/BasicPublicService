@@ -488,9 +488,7 @@ body{
 .h5d1,.h5d2{
     text-align: center;
 }
-.h5d1{
 
-}
 .h5d2{
     padding-bottom: 50px;
 }
@@ -796,15 +794,15 @@ body{
 @keyframes happy1{
     0%{
         background-image: url(https://plus.unsplash.com/premium_photo-1661911021547-b0188f22d548?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-        box-shadow: 1px 1px 20px 5px rgb(251, 225, 213);
+        
     }
     30%{
         background-image: url(https://images.unsplash.com/photo-1509390673020-a5b2450e33f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-        box-shadow: 1px 1px 200px 5px rgb(144, 154, 187);
+        
     }
     100%{
         background-image: url(https://www.capitalccg.ac.uk/wp-content/smush-webp/2024/01/how-to-become-an-electrician-career-spotlight-1.jpg.webp);
-        box-shadow: 1px 1px 200px 5px gray;
+        
     }
 }
 .p7d9{
@@ -964,6 +962,9 @@ body{
 }
 .h6h1{
     padding-top: 55px;
+}
+.p7d2s{
+    font-weight: 900;
 }
 @media screen and (max-width :1061px) {
     .n1 label{
@@ -1229,4 +1230,92 @@ body{
         margin: 0;
         display: block;
     }
+    .p3e h1{
+        font-size: 25px;
+    }
+    .p3e img{
+
+        width: 100%;
+
+    }
+    .p3e p{
+        font-size: 10px;
+    }
+    .p4e a{
+        font-size: 15px;
+    }
+    .p4d2 p{
+        font-size: 13px;
+        
+        width: 100%;
+    }
+    .p4d3{
+        display: block;
+    }
+    .p4d3 p{
+        font-size: 12px;
+        word-spacing: 1px;
+    }
+    .p4d2{
+        display: block;
+    }
+    .p6d1 h1{
+        font-size: 20px;
+    }
+    .p7e h1{
+        font-size: 15px;
+    }
+    .p7d2{
+        display: block;
+        line-height: 50px;
+
+    }
+    .p7d3{
+        margin-top: -40px;
+        line-height: 25px;
+    }
+    .p7d3 h1{
+        font-size: 15px;
+    }
+    .p7d2d{
+        font-size: 5px;
+    }
+    .p7d8{
+        display: block;
+        
+    }
+    .p7d6,.p7d7,.p7d9{
+        width: 100%;
+    }
+    .h8e h1{
+        font-size: 20px;
+    }
+    
+    .h8e p{
+        font-size: 15px;
+    }
+    .h8d1d2{
+        font-size: 10px;
+    }
+    .h8d2 h1{
+        font-size: 20px;
+    }
+    .h8d2 p{
+        font-size: 10px;
+    }
+    .h8d2{
+        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .p1e1{
+        gap: 0;
+        padding: 0px;
+        padding-top: 10px;
+
+    }
+    .p1e1 p{
+        font-size: 10px;
+    }
+
 }
