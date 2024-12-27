@@ -1067,6 +1067,9 @@ body{
     .p6d1 img{
         width: 100%;
     }
+    .h6e{
+        margin: 0;
+    }
 }
 @media screen and (max-width:600px) {
     .e2e{
