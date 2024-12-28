@@ -1116,6 +1116,10 @@ body{
     
 
 }
+
+.l3e h2{
+    font-family: "Ubuntu", serif;  
+}
 .l4e {
    
     margin-left: 210px;
@@ -1144,9 +1148,14 @@ body{
     color: whitesmoke;
     
 }
+input::placeholder{
+    padding-left: 10px;
+    color: black;
+    opacity: 0.7;
+}
 .l3e{
     box-shadow: 1px 1px 10px 10px rgb(57, 57, 117);
-    margin-top: 150px;
+    margin-top: 40px;
     margin-left: 520px;
     margin-right: 520px;
     margin-bottom: 50px;
@@ -1204,6 +1213,8 @@ body{
     border: 0px solid;
     margin-left: 350px;
     margin-right: 350px;
+    margin-bottom: 100px;
+    margin-top: -90px;
     box-shadow: 1px 1px 10px 10px rgb(57, 57, 117);
 }
 .r2e{
@@ -1578,7 +1589,7 @@ body{
         margin-left: 10px;
         margin-top: 0px;
         padding: 0;
-        margin-bottom: 5px;
+        margin-bottom: 1px;
     }
     .s1e img:hover{
         scale: 1.01;
