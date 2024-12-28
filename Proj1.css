@@ -224,6 +224,14 @@ body{
     border-radius: 30px;
     
 }
+.e2d img:hover{
+    padding: 0;
+    border-radius: 30px;
+    width: 85%;
+
+    padding-top: 20px;
+    
+}
 .e2d h1{
     padding-top: 20px;
     font-size: 25px;
@@ -278,6 +286,10 @@ body{
     text-decoration: none;
     color: black;
 }
+.p3d2 a{
+    text-decoration: none;
+    color: black;
+}
 .e2d button{
     background-color: rgb(28, 167, 222);
     border: 1px ;
@@ -285,6 +297,10 @@ body{
     padding-right: 15px;
     padding-bottom: 3px;
     padding-top: 3px;
+}
+.e2d p{
+    scale: 1.01;
+    transition: all 1s;
 }
 .e2d3 button{
     padding-bottom: 15px;
