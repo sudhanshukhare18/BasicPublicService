@@ -89,6 +89,7 @@ body{
     margin-bottom: 5px;
     
 }
+
 .e2d img:hover{
     scale: 1.1;
     border-radius: 30px;
@@ -108,10 +109,10 @@ body{
 }
 
 .e2dp:hover{
-    scale: 1.2;
+    scale: 1.01;
     border: 0px solid black;
     color: rgb(34, 72, 79);
-    transition: all .4s;
+    transition: all 4s;
     
 }
 .e2d h1:hover{
@@ -208,7 +209,7 @@ body{
     
     background: rgb(194, 235, 250);
     text-align: center;
-    
+    border-radius: 20px;
     
 }
 .sg1{
@@ -219,6 +220,8 @@ body{
 .e2d img{
     padding: 10px;
     padding-top: 20px;
+    width: 90%;
+    border-radius: 30px;
     
 }
 .e2d h1{
@@ -966,6 +969,12 @@ body{
 .p7d2s{
     font-weight: 900;
 }
+.rd1 {
+    margin-top:140px ;
+}
+.rd1 h2{
+    color: antiquewhite;
+}
 @media screen and (max-width :1061px) {
     .n1 label{
         display:block;
@@ -1175,6 +1184,67 @@ body{
 .l2e input:focus{
     box-shadow: 1px 1px 50px 20px rgb(33, 33, 88);
 }
+.r1e{
+    border: 0px solid;
+    margin-left: 350px;
+    margin-right: 350px;
+    box-shadow: 1px 1px 10px 10px rgb(57, 57, 117);
+}
+.r2e{
+    text-align: center;
+    margin-top: px;
+    padding: 50px;
+    
+}
+.r3e{
+    display: flex;
+    justify-content: space-evenly;
+    
+    gap: 40px;
+}
+.r4e input {
+    border: 1px solid rgb(20, 5, 32);
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    
+
+}
+#rlog1{
+    background-color: rgb(108, 55, 155);
+    color: whitesmoke;
+    margin-top: 30px;
+    
+    height: 50px;
+    padding-right: 90px;
+}
+.r7e{
+    margin-top: 0px;
+    font-size: 50px;
+    border: 0px solid ;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+.r7e button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    word-spacing: 5px;
+    background-color: whitesmoke;
+    border: 0px solid;
+    color: black;
+}
+.e2e p:hover{
+    scale: 1.09;
+}
+.e2dp:hover{
+    color: rgb(187, 159, 0);
+}
 @media screen and (max-width: 400px){
     .h6s1{
         font-size: 30px;
@@ -1377,6 +1447,7 @@ body{
        
         
     }
+    
     .e2d:hover{
         scale: 0.9;
         transition: all 2s;
@@ -1384,12 +1455,42 @@ body{
     }
     .e2d img:hover{
         padding: 0;
-        border-radius: 0px;
+        border-radius: 30px;
+        width: 85%;
+
         padding-top: 20px;
-        padding-left: 20px;
+        
+    }
+    .h4d1{
+        margin: 0px;
+        border-bottom: 4px solid rgb(3, 52, 29);
+        border-radius: 10px;
+    }
+    .h4dd1{
+        border-top: 4px solid rgb(3, 52, 29);
+        border-radius: 10px;
+    }
+    .h4e{
+        background-color: rgb(0, 41, 18);
+    }
+    .h6d2,.h6d3,.h6d4{
+        border-radius: 0;
+    }
+    .h7d2,.h7d3{
+        
+        border-bottom: 50px solid rgb(21, 21, 41);
+        
+    }
+    .h7e{
+        background-color: black;
+    }
+    .h3e{
+        background-color:white ;
+        width: 100%;
+        padding: 0px;
     }
     .e1e{
-        background-color:;
+        
         color: rgb(195, 243, 255);
         gap: 10px;
     }
@@ -1455,65 +1556,37 @@ body{
     .h7d5 p{
         font-size: 6px;
     }
-}
-.r1e{
-    border: 0px solid;
-    margin-left: 350px;
-    margin-right: 350px;
-    box-shadow: 1px 1px 10px 10px rgb(57, 57, 117);
-}
-.r2e{
-    text-align: center;
-    margin-top: px;
-    padding: 50px;
-    
-}
-.r3e{
-    display: flex;
-    justify-content: space-evenly;
-    
-    gap: 40px;
-}
-.r4e input {
-    border: 1px solid rgb(20, 5, 32);
-    border-radius: 5px;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 200px;
-    
-
-}
-#rlog1{
-    background-color: rgb(108, 55, 155);
-    color: whitesmoke;
-    margin-top: 30px;
-    
-    height: 50px;
-    padding-right: 90px;
-}
-.r7e{
-    margin-top: 0px;
-    font-size: 50px;
-    border: 0px solid ;
-    padding-bottom: 30px;
-    text-align: center;
-
-}
-.r7e button{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 10px;
-    word-spacing: 5px;
-    background-color: whitesmoke;
-    border: 0px solid;
-    color: black;
-}
-.e2e p:hover{
-    scale: 1.09;
-}
-.e2dp:hover{
-    color: rgb(187, 159, 0);
+    .r1e{
+        padding: 0;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 0px;
+        padding: 0;
+        margin-bottom: 5px;
+    }
+    .s1e img:hover{
+        scale: 1.01;
+    }
+    .dm1 p{
+        font-size: 11px;
+        text-align: left;
+        word-spacing: 1px;
+        line-height: 20px;
+    }
+    .h4d1 img{
+        height: 200px;
+    }
+    .rd1{
+        margin-top: 60px;
+        
+    }
+    .rd1 h2{
+        color: antiquewhite;
+    }
+    .e2d{
+        border-bottom: 2.5px solid rgb(10, 141, 255); 
+    }
+    .e2d:hover{
+        border-top: 2.5px solid rgb(10, 141, 255);
+    }
 }
