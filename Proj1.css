@@ -655,6 +655,12 @@ body{
     font-size: 18px;
     color: rgb(89, 97, 97);
 }
+.r1e h2{
+    color: antiquewhite;
+}
+.r1e{
+    margin-top: px;
+}
 .p4d1{
     padding-left: 10px;
     border-bottom: 1px solid rgb(211, 211, 211);
@@ -1214,7 +1220,7 @@ input::placeholder{
     margin-left: 350px;
     margin-right: 350px;
     margin-bottom: 100px;
-    margin-top: -90px;
+    margin-top: 90px;
     box-shadow: 1px 1px 10px 10px rgb(57, 57, 117);
 }
 .r2e{
